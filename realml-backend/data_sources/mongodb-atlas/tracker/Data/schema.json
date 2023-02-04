@@ -1,0 +1,31 @@
+{
+	"title": "Datum",
+	"properties": {
+		"_id": {
+			"bsonType": "string"
+		},
+		"type": {
+			"bsonType": "string"
+		},
+		"memberOf": {
+			"bsonType": "array",
+			"items": {
+				"bsonType": "object",
+				"properties": {
+					"_partition": {
+						"bsonType": "string"
+					},
+					"cases": {
+						"bsonType": "string"
+					},
+					"deaths": {
+						"bsonType": "string"
+					},
+					"recovered": {
+						"bsonType": "string"
+					}
+				}
+			}
+		}
+	}
+}
